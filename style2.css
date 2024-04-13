@@ -1,0 +1,87 @@
+div{
+    background-image: url(enir1.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 750px;
+     margin-top: 5px;
+     padding-top: 2px;
+
+}
+footer {
+    background-color: #8cd06d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+h2{
+    padding-left: 170px;
+    font-size: 120px;
+    position: relative;
+    font-style: italic;
+    color: black;
+    -webkit-text-stroke: 0.3vw #01fe87;
+    text-transform: uppercase;
+    padding-top: 105px;
+    text-shadow: 15px -4px 4px yellow;
+  
+   
+}
+h2::before{
+    content: attr();
+    position: absolute;
+    width: 0;
+    top: 0;
+    left:0;
+    height: 100%;
+    color: #01fe87;
+    -webkit-text-stroke: 0vw black;
+    border-right: 2px solid #01fe87;
+    overflow: hidden;
+    animation: animate 6% linear infinite;
+
+
+}
+@keyframes animate 
+{
+    0%,10%,100%
+    {
+        width: 0;
+    }
+    70%,90%
+    {
+        width: 100%;
+    }
+}
+
+button{
+    width: 110px;
+}
+h3{
+    padding-left: 950px;
+    font-size: 25px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    height: 120px;
+}
+label{
+    font-size: 50px;
+   
+}
+select{
+    font-size: 30px;
+   
+}
+p{
+    padding-top: 150px;
+    text-align: center;
+}
+
